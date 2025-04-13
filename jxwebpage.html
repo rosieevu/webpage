@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <style>
+    body, html {
+      height: 100%;
+      font-family: "Inconsolata", sans-serif;
+    }
+
+    .bgimg {
+      background-position: center;
+      background-size: cover;
+      background-image: url("pic8.jpg");
+      min-height: 75%;
+    }
+
+    .menu {
+      display: none;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container " id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">This is specifically made only for Png Jian Xing</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:60px">Jesse baby Webpage</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">xiao gong zhu 2025</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p>There is not really a start date but i guess one could say we go way back to december (or was it november?) of 2023 and the rest is history~</p>
+    <p>Even though our story wasn't always smooth or sweet, the sweeter moments meant more than ever. May we be our first and last no matter what comes at us.</p>
+    <div class="w3-panel w3-leftbar ">
+      <p><i>To my favourite boy: Thank you for always being there for me and for everything you have done for me. Words cant express how grateful i am to have you in my life. You have taught me so much things and i want to always have you by my side no matter what.</i></p>
+      <p>You are so precious and important to me, I hope you know that</p>
+    </div>
+    <img src="pic14.JPG" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> 18 November 2024</p>
+    <p><strong>Address:</strong> 有你的地方就是家</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">QinZuiBa</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Our');" id="myLink">
+        <div class="w3-col s6 tablink">Our</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Memories');">
+        <div class="w3-col s6 tablink">Memories</div>
+      </a>
+    </div>
+
+    <div id="Our" class="w3-container menu w3-padding-48 w3-card">
+      <h5>one of my favourite photo of you bai bai nen nen de handsome boy</h5>
+      <img src="pic16.JPG" style="width:60%;max-width:100px" class="w3-margin-top">
+    
+      <h5>And another one that i could not stop looking at after i took it. Shuai si~</h5>
+      <img src="pic27.JPG" style="width:100%;max-width:100px" class="w3-margin-top">
+    
+      <h5>Crabbing together yayy</h5>
+      <img src="pic12.JPG" style="width:100%;max-width:300px" class="w3-margin-top">
+    
+      <h5>two bingsu pleasee</h5>
+      <img src="pic24.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    
+      <h5>to more dinner date together</h5>
+      <img src="pic29.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    </div>
+
+    <div id="Memories" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Xiao ducky zuo split</h5>
+      <img src="pic28.JPG" style="width:100%;max-width:100px" class="w3-margin-top">
+    
+      <h5>Dumbo the elephant</h5>
+      <img src="pic26.JPG" style="width:60%;max-width:100px" class="w3-margin-top">
+    
+      <h5>Our study dates hehe</h5>
+      <img src="pic22.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    
+      <h5>Yochi by the river yayy</h5>
+      <img src="pic23.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    
+      <h5>just you and me </h5>
+      <img src="pic10.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    </div>  
+    <img src="pic15.JPG" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Our Gallery</span></h5>
+    <p>xiao shuai ge and xiao gong zhu</p>
+    <img src="pic20.JPG" class="w3-image" style="width:100%;max-width:200px">
+    <p>nom nom burger</p>
+    <img src="pic9.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+    <p>xiao ke ai</p>
+    <img src="pic30.JPG" style="width:100%;max-width:200px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
